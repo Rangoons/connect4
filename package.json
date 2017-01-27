@@ -1,0 +1,35 @@
+{
+  "name": "434game",
+  "version": "1.0.0",
+  "description": "multiplayer turn based game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app"
+  },
+  "author": "Brendan McDonald",
+  "license": "ISC",
+  "dependencies": {
+    "alertify.js": "^1.0.12",
+    "async": "^2.1.4",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "connect-four": "0.0.6",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "jquery": "^3.1.1",
+    "mongodb": "^2.2.11",
+    "mongoose": "*",
+    "node-fetch": "^1.6.3",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "request": "^2.78.0",
+    "socketio": "^1.0.0"
+  }
+}

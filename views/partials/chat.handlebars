@@ -1,0 +1,9 @@
+<div class="chat">
+  <!--definitely a hacky way to do this  -->
+  <input id="username" style="display:none;" value="{{{user.username}}}">
+  <div class="chat-messages"></div>
+  <textarea placeholder="Type your message" name=""></textarea>
+  <div class="chat-status">Status: <span>Idle</span></div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chat.js"></script>
